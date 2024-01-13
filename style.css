@@ -3,6 +3,9 @@
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Rubik+Maps&family=Russo+One&display=swap');
 
 
 /* Custom default button */
@@ -19,7 +22,7 @@
  */
 
  body{
-  background-color: #1A4C50;
+  /* background-color: #1A4C50; */
   font-family: 'Roboto', sans-serif;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
@@ -66,7 +69,7 @@
 }
 
 .bg-clr {
-  background-image: linear-gradient(to right, #1A4C50 , #348781);
+  background-image: linear-gradient(to right, #1A4C50 , #54b6af);
 }
 
 .nav-clr{
@@ -74,5 +77,64 @@
 }
 
 .text-clr-light{
-  color: #bfeff0;
+  color: #caecf4;
+}
+
+.btn:hover{
+  color: #348781;
+}
+
+.logo-s{
+    /* font-family: "Russo One", sans-serif ;  */
+    /* font-family: "Rubik Maps", system-ui; */
+    font-family: "Asset", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+}
+
+.mr-20{
+  margin-right: 20%;
+}
+
+.bg-img{
+  background: url("./img/simg.jpeg");
+  height:auto;
+  /* width:100%; */
+  background-repeat: no-repeat;
+}
+
+/*************EXPERIENCE***********/
+.bg-img-exp{
+  display: flex;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: url(./img/expbg5.jpeg);
+}
+
+.trans-box{
+  background-color: #ffffff; 
+  opacity: 0.9;
+}
+
+.txt-color{
+  color: #1A4C50;
+}
+
+/**********CONTACT**************/
+.form-control{
+  border-color: #000 !important;
+  border-radius: 0px !important;
+  font-weight: 600 !important;
+}
+
+.bg-color{
+  background-color: #1A4C50 !important;
+  font-weight: 700;
+  border: none;
+}
+.btn:hover{
+  background-color: #54b6af !important;
+  border: none !important;
+  color: #000 !important;
 }
