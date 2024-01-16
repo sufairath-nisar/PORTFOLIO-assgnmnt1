@@ -139,7 +139,30 @@
   color: #000 !important;
 }
 
+/*************INDEX***************/
 .opcimg{
   opacity: 0.3 !important;
   background-color: #ffffff !important;
+}
+
+.w25{
+width: 25px;
+}
+
+
+
+/*********MEDIA QUERY******/
+@media screen and (min-width: 600px) {
+  .m-11{
+    margin-right: 11px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .h-100{
+    min-block-size: 350px !important;
+  }
+  .mb-20{
+    margin-bottom: 20px !important;
+  }
 }
